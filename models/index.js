@@ -1,4 +1,5 @@
 // import models
+const { Model, DataTypes } = require('sequelize');
 const Product = require('./Product');
 const Category = require('./Category');
 const Tag = require('./Tag');
