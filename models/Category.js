@@ -8,7 +8,8 @@ Category.init(
   {
     // define columns
     clothing:{
-      type: DataTypes.STRING
+      type: DataTypes.STRING,
+      allowNull: false,
     },
   
   },

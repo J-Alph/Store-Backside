@@ -6,9 +6,10 @@ class Tag extends Model {}
 
 Tag.init(
   {
-    // define columns
+    // defined columns
     tag_name: {
-      type: DataType.STRING
+      type: DataType.STRING,
+      allowNull: false,
     }
   },
   {
