@@ -19,9 +19,9 @@ Product.belongsToMany(Tag, {
 });
 
 // Tags belongToMany Products (through ProductTag)
-TimeRanges.belongsToMany(Tag, {
+Tag.belongsToMany(Product, {
   through: ProductTag,
-})
+});
 
 
 module.exports = {
